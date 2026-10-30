@@ -7,7 +7,7 @@ Route::get('/', function () {
 });
 
 Route::get('/about', function () {
-    return view('about', ['nama' => 'Nailong']);
+    return view('about');
 });
 
 Route::get('/blog', function () {
